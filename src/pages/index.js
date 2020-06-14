@@ -111,12 +111,8 @@ const IndexPage = () => (
   <Layout>
     <section className="intro">
       <header>
-        <h1>Paradigm Shift</h1>
-        <p>
-          A free responsive site template designed by{' '}
-          <a href="https://twitter.com/ajlkn">@ajlkn</a> /{' '}
-          <a href="https://html5up.net">HTML5 UP</a>
-        </p>
+        <h1>Monumental Projects</h1>
+
         <ul className="actions">
           <li>
             <a href="#first" className="arrow scrolly">
@@ -134,7 +130,7 @@ const IndexPage = () => (
 
     <section id="first">
       <header>
-        <h2>Magna sed nullam nisl adipiscing</h2>
+        <h2>What We're Doing</h2>
       </header>
       <div className="content">
         <p>
@@ -154,7 +150,7 @@ const IndexPage = () => (
 
     <section>
       <header>
-        <h2>Feugiat consequat tempus ultrices</h2>
+        <h2>Who We Support</h2>
       </header>
       <div className="content">
         <p>
@@ -180,7 +176,7 @@ const IndexPage = () => (
 
     <section>
       <header>
-        <h2>Ultrices erat magna sed condimentum</h2>
+        <h2>Who We Are</h2>
       </header>
       <div className="content">
         <p>
@@ -190,7 +186,7 @@ const IndexPage = () => (
 
         <section>
           <header>
-            <h3>Erat aliquam</h3>
+            <h3>Zahra</h3>
             <p>
               Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
               etiam consequat, et lorem adipiscing sed dolor sit amet,
@@ -222,17 +218,17 @@ const IndexPage = () => (
 
         <section>
           <header>
-            <h3>Nisl consequat</h3>
+            <h3>Kofi</h3>
             <p>
-              Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-              aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-              amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna
-              finibus nisi nec lacinia ipsum maximus.
+              Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
+              etiam consequat, et lorem adipiscing sed dolor sit amet,
+              consectetur amet do eiusmod tempor incididunt ipsum suspendisse
+              ultrices gravida.
             </p>
           </header>
           <div className="content">
             <Gallery
-              images={images02.map(
+              images={images01.map(
                 ({
                   id,
                   source,
@@ -251,63 +247,6 @@ const IndexPage = () => (
             />
           </div>
         </section>
-
-        <section>
-          <header>
-            <h3>Lorem gravida</h3>
-            <p>
-              Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-              feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem
-              ullamcorper dolore. ac varius enim lorem ullamcorper dolore. Proin
-              aliquam facilisis.
-            </p>
-          </header>
-          <div className="content">
-            <Gallery
-              images={images03.map(
-                ({
-                  id,
-                  source,
-                  thumbnail,
-                  caption,
-                  description,
-                  landscape,
-                }) => ({
-                  source,
-                  thumbnail,
-                  caption,
-                  description,
-                  landscape,
-                })
-              )}
-            />
-          </div>
-        </section>
-      </div>
-    </section>
-
-    <section>
-      <header>
-        <h2>Duis sed adpiscing veroeros amet</h2>
-      </header>
-      <div className="content">
-        <p>
-          <strong>Proin tempus feugiat</strong> sed varius enim lorem
-          ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim
-          lorem ullamcorper dolore.
-        </p>
-        <ul className="actions">
-          <li>
-            <a href="#" className="button primary large">
-              Get Started
-            </a>
-          </li>
-          <li>
-            <a href="#" className="button large">
-              Learn More
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -353,7 +292,7 @@ const IndexPage = () => (
         <ul className="items">
           <li>
             <h3>Email</h3>
-            <a href="#">information@untitled.ext</a>
+            <a href="#">hello@monumentalprojects.ca</a>
           </li>
           <li>
             <h3>Phone</h3>
@@ -361,10 +300,10 @@ const IndexPage = () => (
           </li>
           <li>
             <h3>Address</h3>
-            <span>1234 Somewhere Road, Nashville, TN 00000</span>
+            <span>1234 Zada Loop, Toronto, ON A1B 2C3</span>
           </li>
           <li>
-            <h3>Elsewhere</h3>
+            <h3>On the Internet</h3>
             <ul className="icons">
               <li>
                 <a href="#" className="icon brands fa-twitter">
@@ -403,8 +342,7 @@ const IndexPage = () => (
     </section>
 
     <div className="copyright">
-      &copy; Untitled. All rights reserved. Design:{' '}
-      <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; Monumental Projects. All rights reserved..
     </div>
   </Layout>
 )

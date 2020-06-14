@@ -1,17 +1,19 @@
-# gatsby-starter-paradigm-shift
+# Monumental Projects
 
-Gatsby.js starter based on the Paradigm Shift site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and themes.
+Landing page for Monumental Projects
 
 ## Preview
 
-https://gatsby-paradigm-shift.surge.sh/
+https://monumentalprojects.ca
 
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 ```
-gatsby new gatsby-starter-paradigm-shift https://github.com/codebushi/gatsby-starter-paradigm-shift
+gatsby new monumentalprojects https://github.com/monumentalprojects/monumentalprojects.ca
 ```
 
 Run `gatsby develop` in the terminal to start the dev site.
+
+based on [https://github.com/codebushi/gatsby-starter-paradigm-shift](https://github.com/codebushi/gatsby-starter-paradigm-shift)
